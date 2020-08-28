@@ -1,0 +1,330 @@
+{
+  "id": 1,
+  "configuracion": {
+    "id": 1,
+    "nombre": "Tramitar",
+    "pestanas": [
+      {
+        "id": 1,
+        "titulo": "Configuración General",
+        "formularios": [
+          {
+            "id": 1,
+            "titulo": "Configuración General",
+            "campos": [
+              {
+                "id": 1,
+                "tipoCampo": {
+                  "id": 1,
+                  "glosa": "Label"
+                },
+                "glosa": "Soy un Label"
+              },
+              {
+                "id": 2,
+                "tipoCampo": {
+                  "id": 2,
+                  "glosa": "RadioButtonGroup"
+                },
+                "glosa": "Soy un RadioButtonGroup",
+                "opciones": [
+                  {
+                    "id": 10,
+                    "glosa": "Uno",
+                    "valor": 1,
+                    "seleccionado": true
+                  },
+                  {
+                    "id": 20,
+                    "glosa": "Dos",
+                    "valor": 2,
+                    "seleccionado": false
+                  }
+                ]
+              },
+              {
+                "id": 3,
+                "tipoCampo": {
+                  "id": 1,
+                  "glosa": "Label"
+                },
+                "glosa": "Otra opción"
+              },
+              {
+                "id": 4,
+                "tipoCampo": {
+                  "id": 2,
+                  "glosa": "RadioButtonGroup"
+                },
+                "glosa": "Tipo de algo",
+                "opciones": [
+                  {
+                    "id": 10,
+                    "glosa": "Algo 1",
+                    "valor": 1,
+                    "seleccionado": true
+                  },
+                  {
+                    "id": 20,
+                    "glosa": "Aglo 2",
+                    "valor": 2,
+                    "seleccionado": false
+                  }
+                ]
+              },
+              {
+                "id": 5,
+                "tipoCampo": {
+                  "id": 1,
+                  "glosa": "Label"
+                },
+                "glosa": "Soy un Label 2"
+              },
+              {
+                "id": 6,
+                "tipoCampo": {
+                  "id": 4,
+                  "glosa": "CheckBoxGroup"
+                },
+                "glosa": "Soy un CheckBoxGroup",
+                "opciones": [
+                  {
+                    "id": 110,
+                    "glosa": "Diez",
+                    "valor": 1,
+                    "seleccionado": false
+                  },
+                  {
+                    "id": 220,
+                    "glosa": "Veinte",
+                    "valor": 2,
+                    "seleccionado": true
+                  }
+                ]
+              },
+              {
+                "id": 7,
+                "tipoCampo": {
+                  "id": 1,
+                  "glosa": "Label"
+                },
+                "glosa": "Otra prueba de checks"
+              },
+              {
+                "id": 100,
+                "tipoCampo": {
+                  "id": 4,
+                  "glosa": "CheckBoxGroup"
+                },
+                "glosa": "Soy un CheckBoxGroup",
+                "opciones": [
+                  {
+                    "id": 1110,
+                    "glosa": "Check 1",
+                    "valor": 1,
+                    "seleccionado": false
+                  },
+                  {
+                    "id": 2220,
+                    "glosa": "Check 2",
+                    "valor": 2,
+                    "seleccionado": true
+                  },
+                  {
+                    "id": 3330,
+                    "glosa": "Check 3",
+                    "valor": 2,
+                    "seleccionado": true
+                  },
+                  {
+                    "id": 4440,
+                    "glosa": "Check 4",
+                    "valor": 2,
+                    "seleccionado": true
+                  }
+                ]
+              },
+              {
+                "id": 1,
+                "tipoCampo": {
+                  "id": 1,
+                  "glosa": "Label"
+                },
+                "glosa": "Soy un Label 3"
+              },
+              {
+                "id": 1,
+                "tipoCampo": {
+                  "id": 6,
+                  "glosa": "Combobox"
+                },
+                "glosa": "Soy un Combobox",
+                "opciones": [
+                  {
+                    "id": 1110,
+                    "glosa": "Diez",
+                    "valor": 1,
+                    "seleccionado": false
+                  },
+                  {
+                    "id": 2220,
+                    "glosa": "Veinte",
+                    "valor": 2,
+                    "seleccionado": true
+                  }
+                ]
+              },
+              {
+                "id": 1,
+                "tipoCampo": {
+                  "id": 7,
+                  "glosa": "Switch"
+                },
+                "glosa": "Soy un Switch",
+                "seleccionado": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "titulo": "Tramitar",
+        "formularios": [
+          {
+            "id": 3,
+            "titulo": "Tipo de vista por defecto en Trámites Pendientes",
+            "campos": [
+              {
+                "id": 1,
+                "tipoCampo": {
+                  "id": 1,
+                  "glosa": "Label"
+                },
+                "glosa": "Personalización"
+              },
+              {
+                "id": 10,
+                "tipoCampo": {
+                  "id": 2,
+                  "glosa": "RadioButtonGroup"
+                },
+                "glosa": "Tipos de Vista:",
+                "opciones": [
+                  {
+                    "id": 110,
+                    "glosa": "Por Folio",
+                    "valor": 1,
+                    "seleccionado": true
+                  },
+                  {
+                    "id": 220,
+                    "glosa": "Por Resolución",
+                    "valor": 2,
+                    "seleccionado": false
+                  },
+                  {
+                    "id": 330,
+                    "glosa": "Por Fecha",
+                    "valor": 3,
+                    "seleccionado": false
+                  },
+                  {
+                    "id": 440,
+                    "glosa": "Por Trámite",
+                    "valor": 4,
+                    "seleccionado": false
+                  },
+                  {
+                    "id": 550,
+                    "glosa": "Por Etapa",
+                    "valor": 5,
+                    "seleccionado": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "titulo": "Visualización de documentos",
+            "campos": [
+              {
+                "id": 1,
+                "tipoCampo": {
+                  "id": 1,
+                  "glosa": "Label"
+                },
+                "glosa": "Mostrar documento de escrito en:"
+              },
+              {
+                "id": 10,
+                "tipoCampo": {
+                  "id": 2,
+                  "glosa": "RadioButtonGroup"
+                },
+                "glosa": "Mostrar documento de escrito en:",
+                "opciones": [
+                  {
+                    "id": 110,
+                    "glosa": "Izquierda",
+                    "valor": 1,
+                    "seleccionado": true
+                  },
+                  {
+                    "id": 220,
+                    "glosa": "Derecha",
+                    "valor": 2,
+                    "seleccionado": false
+                  },
+                  {
+                    "id": 330,
+                    "glosa": "Pestaña nueva del navegador",
+                    "valor": 3,
+                    "seleccionado": false
+                  }
+                ]
+              },
+              {
+                "id": 1,
+                "tipoCampo": {
+                  "id": 1,
+                  "glosa": "Label"
+                },
+                "glosa": "Mostrar documento de trámite pendiente en:"
+              },
+              {
+                "id": 20,
+                "tipoCampo": {
+                  "id": 2,
+                  "glosa": "RadioButtonGroup"
+                },
+                "glosa": "Mostrar documento de trámite pendiente en:",
+                "opciones": [
+                  {
+                    "id": 1110,
+                    "glosa": "Izquierda",
+                    "valor": 1,
+                    "seleccionado": true
+                  },
+                  {
+                    "id": 21220,
+                    "glosa": "Derecha",
+                    "valor": 2,
+                    "seleccionado": false
+                  },
+                  {
+                    "id": 33330,
+                    "glosa": "Pestaña nueva del navegador",
+                    "valor": 3,
+                    "seleccionado": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

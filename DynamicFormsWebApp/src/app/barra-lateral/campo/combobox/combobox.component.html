@@ -1,0 +1,10 @@
+<div class="form-group" [formGroup]="formGroup">
+  <label [for]="combobox.id">{{combobox.glosa}}</label>
+  <select class="form-control"
+  	[formControlName]="combobox.idHTML"
+  	[name]="combobox.idHTML"
+  	[id]="combobox.id">
+    <option *ngFor="let item of combobox.opciones"
+    [value]="item.valor">{{item.glosa}}</option>
+  </select>
+</div>

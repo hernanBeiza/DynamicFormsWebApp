@@ -1,0 +1,28 @@
+<!--
+<code>pjud-barra-lateral works!</code>
+-->
+
+<ngb-tabset [destroyOnHide]="false">
+  <ngb-tab *ngFor="let pestana of pestanas" [title]="pestana.titulo">
+    <ng-template ngbTabContent>
+      <app-pestana [pestana]="pestana"></app-pestana>
+    </ng-template>
+  </ngb-tab>
+</ngb-tabset>
+
+<!--
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">{{pestana.titulo}}</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+  </li>
+</ul>
+-->

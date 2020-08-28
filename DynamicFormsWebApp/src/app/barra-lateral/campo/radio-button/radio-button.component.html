@@ -1,0 +1,8 @@
+<div class="form-check" [formGroup]="formGroup">
+	<input class="form-check-input" type="radio" 
+  [formControl]="obtenerControl(radioButtonGroup.idHTML)"
+  [name]="radioButtonGroup.idHTML"
+	[id]="radioButton.idHTML" 
+	[value]="radioButton.valor">
+  <label class="form-check-label" [for]="radioButton.idHTML">{{radioButton.glosa}}</label>
+</div>

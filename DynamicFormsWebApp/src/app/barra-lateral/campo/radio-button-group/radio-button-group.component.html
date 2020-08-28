@@ -1,0 +1,29 @@
+<!--
+<p>{{radioButtonGroup.glosa}}</p>
+-->
+<div class="form-group" [formGroup]="formGroup">
+	
+	<!--
+	<pjud-radio-button 
+	[radioButtonGroup]="radioButtonGroup" 
+	[radioButton]="radioButton" 
+	[formGroup]="formGroup" *ngFor="let radioButton of radioButtonGroup.opciones"></pjud-radio-button>
+	-->
+	<!--
+	<div class="form-check" *ngFor="let radioButton of radioButtonGroup.opciones">
+		<input class="form-check-input" type="radio" 
+		[name]="radioButtonGroup.idHTML"
+	  [formControlName]="radioButtonGroup.idHTML"
+		[id]="radioButton.idHTML" 
+		[value]="radioButton.valor">
+	  <label class="form-check-label" [for]="radioButton.idHTML">{{radioButton.glosa}}</label>
+	</div>
+	-->
+	
+	<ng-template #radioButtonNidoView></ng-template>
+	
+	<!--
+	<small id="radioButtonGroupAyuda" class="text-danger form-text">{{campo?.validacionModel?.mensaje}}</small>
+	-->
+
+</div>

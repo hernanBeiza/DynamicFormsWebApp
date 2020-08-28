@@ -1,0 +1,23 @@
+<div class="card">
+	<!--
+	<div class="card-header">
+		{{pestana.titulo}}
+	</div>
+	-->
+	<div class="card-body">
+		<form [formGroup]="pestanaFormGroup" (ngSubmit)="onSubmit(pestanaFormGroup.value)">
+			<!--
+			<pjud-formulario *ngFor="let formulario of pestana.formularios" [formulario]="formulario"></pjud-formulario>
+			-->
+			<ng-template #nido></ng-template>
+		</form>
+	</div>
+
+  <div class="card-footer">
+  	<div class="btn-group float-right ">
+			<button class="btn btn-group btn-primary" (click)="onSubmit(pestanaFormGroup.value)">Guardar</button>
+			<button class="btn btn-group btn-danger" (click)="onReset()">Borrar</button>
+		</div>
+	</div>
+	
+</div>

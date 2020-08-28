@@ -1,0 +1,27 @@
+<!--
+<p>{{checkboxGroup.glosa}}</p>
+-->
+
+<div class="form-group" [formGroup]="formGroup">
+
+	<!--
+	<pjud-check-box [checkbox] = "checkbox" *ngFor="let checkbox of checkboxGroup.opciones"></pjud-check-box>
+	-->
+
+	<!--
+	<div class="form-check" *ngFor="let checkBoxControl of obtenerControles(); let i=index">
+	  <input class="form-check-input" type="checkBox" 
+    [id]="checkBoxGroup.opciones[i].idHTML"
+    [formControl]="checkBoxControl"
+    [value]="checkBoxGroup.opciones[i].valor">
+	  <label class="form-check-label" [for]="checkBoxGroup.opciones[i].idHTML">{{checkBoxGroup.opciones[i].glosa}}</label>
+	</div>
+	-->
+
+	<ng-template #checkBoxNidoView></ng-template>
+	
+	<!--
+	<small id="radioButtonGroupAyuda" class="text-danger form-text">{{campo?.validacionModel?.mensaje}}</small>
+	-->
+
+</div>

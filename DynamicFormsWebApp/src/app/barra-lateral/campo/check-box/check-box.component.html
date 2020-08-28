@@ -1,0 +1,17 @@
+<!--
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" 
+  [checked]="checkBox.seleccionado" 
+  [id]="checkBox.idHTML" 
+  [value]="checkBox.valor">
+  <label class="form-check-label" [for]="checkBox.idHTML">{{checkBox.glosa}}</label>
+</div>
+-->
+
+<div class="form-check">
+  <input class="form-check-input" type="checkBox" 
+  [id]="checkBox.idHTML"
+  [formControl]="obtenerControl(checkBox.idHTML)"
+  [value]="checkBox.valor">
+  <label class="form-check-label" [for]="checkBox.idHTML">{{checkBox.glosa}}</label>
+</div>

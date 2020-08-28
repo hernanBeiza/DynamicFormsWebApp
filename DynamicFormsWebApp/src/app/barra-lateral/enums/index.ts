@@ -1,0 +1,1 @@
+export { TipoCampoEnum } from './TipoCampoEnum';

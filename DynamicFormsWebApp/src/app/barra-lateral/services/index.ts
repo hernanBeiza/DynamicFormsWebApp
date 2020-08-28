@@ -1,0 +1,1 @@
+export { BarraLateralService } from './barra-lateral.service';
